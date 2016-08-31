@@ -1,0 +1,36 @@
+.col-xs-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-xs-4 a {
+    margin-bottom: 0px;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 750px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+.carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 75%;
+    height: auto;
+}
